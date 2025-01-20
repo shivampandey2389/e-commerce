@@ -1,0 +1,39 @@
+{
+  "plants": [
+    {
+      "id": 1,
+      "name": "Aloe Vera",
+      "description": "A succulent plant known for its medicinal properties and easy maintenance.",
+      "image_url": "assests/plant-1.jpg",
+      "price":100
+    },
+    {
+      "id": 2,
+      "name": "Spider Plant",
+      "description": "A popular houseplant with long, arching leaves and small plantlets.",
+      "image_url": "assests/plant-2.jpg",
+      "price":300
+    },
+    {
+      "id": 3,
+      "name": "Snake Plant",
+      "description": "Also known as Sansevieria, this plant is known for its upright leaves and air-purifying qualities.",
+      "image_url": "assests/plant-3.jpg",
+      "price":400
+    },
+    {
+      "id": 4,
+      "name": "Peace Lily",
+      "description": "A flowering plant that thrives in low light and helps purify indoor air.",
+      "image_url": "assests/plant-4.jpg",
+      "price":600
+    },
+    {
+      "id": 5,
+      "name": "Bamboo Palm",
+      "description": "A tropical plant with feathery leaves, ideal for creating a lush indoor atmosphere.",
+      "image_url": "assests/plant-5.jpg",
+      "price":200
+    }
+  ]
+}

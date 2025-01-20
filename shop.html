@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+  integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="utility.css">
+</head>
+<body>
+  <div class="cnt flex">
+    <div class="inner-cnt">
+      <header class="flex align-c brd-btm-shop">
+        <div class="inner-header flex align-c">
+          <div class="left-header flex align-c">
+            <div class="logo">
+              <h1>FRESHMIND</h1>
+            </div>
+            <div class="menu">
+              <ul class="flex align-c">
+                <li>
+                  <button class="btn-opt-site"><a class="hyper-link" href="index.html">Home</a></button>
+                  
+                </li>
+                <li>
+                  <button class="btn-opt-site"><a class="hyper-link" href="shop.html">Products</a></button>
+                </li>
+                <li>
+                  <button class="btn-opt-site"><a class="hyper-link" href="contact.html">Contacts</a></button>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="cart_Account flex align-c">
+            <button id="cart_btn">
+              <i class="fa-solid fa-cart-shopping" ></i>
+              <sup><span class="red-cart-header">0</span></sup>
+            </button>
+          <button><i class="fa-solid fa-user"></i></button>
+          </div>
+        </div>
+    </header>
+
+        <main class="full-d flex justify-c flex-col align-c main-shop">
+          <div class="cards-section site-w flex wrap align-c">
+
+          </div>
+
+          <div class="card-scroll-opt">
+            <div class="inner-card-scroll-btn flex align-c">
+              <button class="left-btn circle-box flex align-c justify-c">
+                &lt
+              </button>
+              <span>1</span>
+              <button class="right-btn circle-box flex align-c justify-c">
+                &gt
+              </button>
+            </div>
+          </div>
+        </main>
+
+        <footer class="flex flex-col align-c">
+          <div class="main-footer flex">
+            <div class="links flex flex-col">
+              <div class="links-head">
+                <h2 class="h2-font">Quick links</h2>
+              </div>
+              <ul>
+                <li><a href="index.html" class="fot-hyper-link">Home</a></li>
+                <li><a href="shop.html" class="fot-hyper-link">Products</a></li>
+                <li><a href="contact.html" class="fot-hyper-link">Contact</a></li>
+                <li><a href="#" class="fot-hyper-link">My Account</a></li>
+              </ul>
+            </div>
+            <div class="our-social">
+              <div class="links-head">
+                <h2 class="h2-font">Our Social</h2>
+              </div>
+              <ul class="flex" style="gap: 20px;">
+                <li class="white-bg flex align-c justify-c"><i class="fa-brands fa-x-twitter"></i></li>
+                <li class="white-bg flex align-c justify-c"><i class="fa-brands fa-instagram"></i></li>
+                <li class="white-bg flex align-c justify-c"><i class="fa-brands fa-facebook"></i></li>
+              </ul>
+            </div>
+  
+            <div class="email-subscribe flex flex-col">
+              <div class="email-subscribe-heading">
+                <h2 class="h2-font">Subscribe to Our Newsletter</h2>
+              </div>
+              <div class="inp-sub-btn flex flex-col">            
+              <input type="text" placeholder="Your email address....">
+              <button class="green-btn">Subscribe</button>
+            </div>
+            </div>
+          </div>
+          <div class="secondary-footer flex">
+            <h3>Copyright © 2025 eGrow Plants | Powered by Freshmind Plants</h3>
+          </div>
+        </footer>
+    </div>
+  </div>
+  <div class="cart-body">
+    <div class="inner-cart-body">
+      <div class="heading-cart-body flex justify-c">
+        <h1 class="fn-lg fn-w-1">Shopping</h1>
+      </div>
+      <div class="list-section-prd">
+        <ul class="flex flex-col align-c justify-c">
+
+          
+
+
+        </ul>
+      </div>
+      <div class="btn-cart-sec flex align-c">
+        <button id="cart_close_btn" class="cart-btn close_btn">
+          <a href="" class="hyper-link-1">Close</a></button>
+        <button class="cart-btn check_out">
+          <a href="" class="hyper-link-1">Check Out</a></button>
+      </div>
+    </div>
+  </div>
+  <script src="shop.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
